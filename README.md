@@ -29,7 +29,7 @@ mode.
 Add opal-erubi to your `Gemfile`:
 
 ```ruby
-gem 'opal-erubi'
+gem 'opal-erubi', github: 'ahmadine/opal-erubi'
 ```
 
 Create an erubi file in the opal load path (e.g. `app/user_template.erubi`):
@@ -92,6 +92,7 @@ This gem contains adapted parts from opal-haml.
 (The MIT License)
 
 Copyright (C) 2019 by ahmadine
+
 opal-haml: Copyright (C) 2013 by Adam Beynon, 2015 Elia Schito
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
