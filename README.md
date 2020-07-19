@@ -29,7 +29,7 @@ mode.
 Add opal-erubi to your `Gemfile`:
 
 ```ruby
-gem 'opal-erubi', github: 'ahmadine/opal-erubi'
+gem 'opal-erubi'
 ```
 
 Create an erubi file in the opal load path (e.g. `app/user_template.erubi`):

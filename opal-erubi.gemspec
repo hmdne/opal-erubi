@@ -4,9 +4,9 @@ require 'opal/erubi/version'
 Gem::Specification.new do |s|
   s.name         = 'opal-erubi'
   s.version      = Opal::Erubi::VERSION
-  s.author       = 'ahmadine'
-  s.email        = '54514036+ahmadine@users.noreply.github.com'
-  s.homepage     = 'https://github.com/ahmadine/opal-erubi'
+  s.author       = 'hmdne'
+  s.email        = '54514036+hmdne@users.noreply.github.com'
+  s.homepage     = 'https://github.com/hmdne/opal-erubi'
   s.summary      = 'Run Erubi templates client-side with Opal'
   s.description  = 'Run Erubi templates client-side with Opal.'
   s.license      = 'MIT'
