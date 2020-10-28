@@ -7,6 +7,7 @@ module Opal
 
       def initialize(*args)
         super
+        @filename = ::Opal::Compiler.module_name(@filename)
         @source = prepare(@source, @filename)
       end
 
@@ -21,8 +22,4 @@ module Opal
       end
     end
   end
-
-  # You could do this if you wanted to reclaim "erb" extension but I'm afraid
-  # it may cause some problems. ERB is used for preprocessing (Opal) Ruby code.
-  #Builder.processors.delete(BuilderProcessors::ERBProcessor)
 end

@@ -16,3 +16,4 @@ end
 
 gem "erubi"
 
+gem "pry"
