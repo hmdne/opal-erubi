@@ -5,7 +5,7 @@ require 'opal/erubi/builder'
 
 #require 'opal/erubi/processor' <<< sprockets support, disabled by default
 
-Opal.append_path File.expand_path('../../../lib-opal', __FILE__).untaint
+Opal.append_path File.expand_path('../../../lib-opal', __FILE__)
 
 module Opal
   module Erubi
